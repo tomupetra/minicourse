@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="assets/Logo-RevoU.png" weidht="50%" height="50%" alt="logo revou">
+            <ul>
+              <a href="#home">Home</a>
+              <a href="ourprofile.html">Our Profile</a>
+              <a>Portofolio</a>
+              <a href="#message">Message Us</a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 id="home">
+            Hi, there! This is your first website :D
+        </h2>
+        <p>Ini website pertama yang kamu buat kan?</p>
+        <img src="assets/banner.png" alt="foto revou" class="banner">
+        <hr>
+        <br>
+        <h2>Our Headquarter</h2>
+        <div class="row">
+            <div class="column">
+              <img src="assets/headquarter.jpeg" alt="Kucing" style="width:55%" class="galeri">
+              <h3 class="info">Jakarta</h3>
+            </div>
+            <div class="column">
+              <img src="assets/headquarter.jpeg" alt="Kucing" style="width:55%" class="galeri">
+              <h3 class="info">Bandung</h3>
+            </div>
+            <div class="column">
+              <img src="assets/headquarter.jpeg" alt="Kucing" style="width:55%" class="galeri">
+              <h3 class="info">Surabaya</h3>
+            </div>
+        </div>
+        <hr>
+        <h2 id="message">Message Us</h2>
+        <div>
+          <form class="input">  
+          Nama \t \t: <input type="text" name="firstname"/> <br/><br/>
+          <label>Tanggal Lahir : </label>
+            <input type="date" name="party" /> <br/><br/>
+          <label for="gender">Jenis Kelamin  : </label>  
+            <input type="radio" id="gender" name="gender" value="male"/>Laki-laki  
+            <input type="radio" id="gender" name="gender" value="female"/>Perempuan <br/><br/>
+          Pesan :<br><textarea rows="6" cols="30"></textarea> <br/><br/>
+          <button class="submit" type="submit">Submit</button> 
+        </form>
+        </div>  
+
+    </main>
+    <footer>
+      <p>RevoU</p>
+    </footer>
+</body>
+</html>
